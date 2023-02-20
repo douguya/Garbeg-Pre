@@ -18,7 +18,7 @@ GameObject:
   m_Layer: 5
   m_Name: Chopstick
   m_TagString: Trash
-  m_Icon: {fileID: 2800000, guid: 0cb58fcc3960d7549ad297bf2f64383d, type: 3}
+  m_Icon: {fileID: 2800000, guid: b6dc05a57d9bcad4aa6653e77a7372e3, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -74,19 +74,19 @@ MonoBehaviour:
   PartsNum: 0
   Before_Dissa: {fileID: 0}
   Before_Wash: {fileID: 0}
-  Miss_Usable: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_Garbage: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_metals: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_paper: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_cloth: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_biomass: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_plastic: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_bottles: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_Dangerous: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_Oversized_Garbage: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_Burnable: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_landfill: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_Costs_money: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
+  Miss_Usable: {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
+  Miss_Garbage: {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
+  Miss_metals: {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
+  Miss_paper: {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
+  Miss_cloth: {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
+  Miss_biomass: {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
+  Miss_plastic: {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
+  Miss_bottles: {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
+  Miss_Dangerous: {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
+  Miss_Oversized_Garbage: {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
+  Miss_Burnable: {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
+  Miss_landfill: {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
+  Miss_Costs_money: {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
   MissImages:
   - {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
   - {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}

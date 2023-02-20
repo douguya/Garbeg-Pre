@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5273184882503079240
+--- !u!1 &8838314814324787640
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,27 +8,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5273184882503079243}
-  - component: {fileID: 5273184882503079233}
-  - component: {fileID: 5273184882503079238}
-  - component: {fileID: 5273184882503079239}
-  - component: {fileID: 5273184882503079236}
-  - component: {fileID: 5273184882503079237}
-  - component: {fileID: 5273184882503079242}
+  - component: {fileID: 460006181497727097}
+  - component: {fileID: 2928374723559489178}
+  - component: {fileID: 7688915284487683789}
+  - component: {fileID: 6493218061881397487}
+  - component: {fileID: 3883723529390978602}
+  - component: {fileID: 7043706412716360994}
+  - component: {fileID: 1404387717748407975}
   m_Layer: 0
-  m_Name: Alumi
+  m_Name: "\u30DA\u30C3\u30C8\u30DC\u30C8\u30EB"
   m_TagString: Trash
   m_Icon: {fileID: 2800000, guid: 613e7df0840cf044d8a467a6219f6dfc, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &5273184882503079243
+--- !u!224 &460006181497727097
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5273184882503079240}
+  m_GameObject: {fileID: 8838314814324787640}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -38,16 +38,16 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28.183, y: 97.565}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 43.97, y: 81.144}
   m_Pivot: {x: 0.5, y: 0.49999997}
---- !u!114 &5273184882503079233
+--- !u!114 &2928374723559489178
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5273184882503079240}
+  m_GameObject: {fileID: 8838314814324787640}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -71,13 +71,13 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5273184882503079238
+--- !u!114 &7688915284487683789
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5273184882503079240}
+  m_GameObject: {fileID: 8838314814324787640}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b885a06855d8dbf419b315dc2316fb66, type: 3}
@@ -96,19 +96,19 @@ MonoBehaviour:
   PartsNum: 0
   Before_Dissa: {fileID: 0}
   Before_Wash: {fileID: 21300000, guid: 1cae0eed7c4d402409cd43bfc773a13d, type: 3}
-  Miss_Usable: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
-  Miss_Garbage: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
-  Miss_metals: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
-  Miss_paper: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
-  Miss_cloth: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
-  Miss_biomass: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
-  Miss_plastic: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
-  Miss_bottles: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
-  Miss_Dangerous: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
-  Miss_Oversized_Garbage: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
-  Miss_Burnable: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
-  Miss_landfill: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
-  Miss_Costs_money: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
+  Miss_Usable: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
+  Miss_Garbage: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
+  Miss_metals: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
+  Miss_paper: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
+  Miss_cloth: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
+  Miss_biomass: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
+  Miss_plastic: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
+  Miss_bottles: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
+  Miss_Dangerous: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
+  Miss_Oversized_Garbage: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
+  Miss_Burnable: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
+  Miss_landfill: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
+  Miss_Costs_money: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
   MissImages: []
   PartDisaPosi: []
   DisaPosi_keep: {x: 0, y: 0, z: 0}
@@ -128,21 +128,21 @@ MonoBehaviour:
   Text: {fileID: 0}
   Corect: 0
   OutingBox: 1
---- !u!222 &5273184882503079239
+--- !u!222 &6493218061881397487
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5273184882503079240}
+  m_GameObject: {fileID: 8838314814324787640}
   m_CullTransparentMesh: 1
---- !u!61 &5273184882503079236
+--- !u!61 &3883723529390978602
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5273184882503079240}
+  m_GameObject: {fileID: 8838314814324787640}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -162,14 +162,14 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 30, y: 50}
   m_EdgeRadius: 0
---- !u!50 &5273184882503079237
+--- !u!50 &7043706412716360994
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5273184882503079240}
+  m_GameObject: {fileID: 8838314814324787640}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -183,13 +183,13 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 3
---- !u!114 &5273184882503079242
+--- !u!114 &1404387717748407975
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5273184882503079240}
+  m_GameObject: {fileID: 8838314814324787640}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
@@ -200,7 +200,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 5273184882503079238}
+        - m_Target: {fileID: 7688915284487683789}
           m_TargetAssemblyTypeName: Trash, Assembly-CSharp
           m_MethodName: OnMouseEnter
           m_Mode: 1
@@ -216,7 +216,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 5273184882503079238}
+        - m_Target: {fileID: 7688915284487683789}
           m_TargetAssemblyTypeName: Trash, Assembly-CSharp
           m_MethodName: ClickDown
           m_Mode: 1
@@ -232,7 +232,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 5273184882503079238}
+        - m_Target: {fileID: 7688915284487683789}
           m_TargetAssemblyTypeName: Trash, Assembly-CSharp
           m_MethodName: ClickUP
           m_Mode: 1
@@ -248,7 +248,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 5273184882503079238}
+        - m_Target: {fileID: 7688915284487683789}
           m_TargetAssemblyTypeName: Trash, Assembly-CSharp
           m_MethodName: OnMouseExit
           m_Mode: 1
