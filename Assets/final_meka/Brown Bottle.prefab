@@ -19,7 +19,7 @@ GameObject:
   m_Layer: 0
   m_Name: Brown Bottle
   m_TagString: Trash
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2800000, guid: 5323eef88ef49eb448d9b7cc47a2e1cd, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -97,19 +97,19 @@ MonoBehaviour:
   PartsNum: 0
   Before_Dissa: {fileID: 0}
   Before_Wash: {fileID: 21300000, guid: 1cae0eed7c4d402409cd43bfc773a13d, type: 3}
-  Miss_Usable: {fileID: 21300000, guid: 61169a0c665b732479f21eb6771ceb5e, type: 3}
-  Miss_Garbage: {fileID: 21300000, guid: 61169a0c665b732479f21eb6771ceb5e, type: 3}
-  Miss_metals: {fileID: 21300000, guid: 61169a0c665b732479f21eb6771ceb5e, type: 3}
-  Miss_paper: {fileID: 21300000, guid: 61169a0c665b732479f21eb6771ceb5e, type: 3}
-  Miss_cloth: {fileID: 21300000, guid: 61169a0c665b732479f21eb6771ceb5e, type: 3}
-  Miss_biomass: {fileID: 21300000, guid: 61169a0c665b732479f21eb6771ceb5e, type: 3}
-  Miss_plastic: {fileID: 21300000, guid: 61169a0c665b732479f21eb6771ceb5e, type: 3}
-  Miss_bottles: {fileID: 21300000, guid: 61169a0c665b732479f21eb6771ceb5e, type: 3}
-  Miss_Dangerous: {fileID: 21300000, guid: 61169a0c665b732479f21eb6771ceb5e, type: 3}
-  Miss_Oversized_Garbage: {fileID: 21300000, guid: 61169a0c665b732479f21eb6771ceb5e, type: 3}
-  Miss_Burnable: {fileID: 21300000, guid: 61169a0c665b732479f21eb6771ceb5e, type: 3}
-  Miss_landfill: {fileID: 21300000, guid: 61169a0c665b732479f21eb6771ceb5e, type: 3}
-  Miss_Costs_money: {fileID: 21300000, guid: 61169a0c665b732479f21eb6771ceb5e, type: 3}
+  Miss_Usable: {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
+  Miss_Garbage: {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
+  Miss_metals: {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
+  Miss_paper: {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
+  Miss_cloth: {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
+  Miss_biomass: {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
+  Miss_plastic: {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
+  Miss_bottles: {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
+  Miss_Dangerous: {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
+  Miss_Oversized_Garbage: {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
+  Miss_Burnable: {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
+  Miss_landfill: {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
+  Miss_Costs_money: {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
   MissImages: []
   PartDisaPosi: []
   DisaPosi_keep: {x: 0, y: 0, z: 0}

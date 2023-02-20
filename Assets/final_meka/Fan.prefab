@@ -18,7 +18,7 @@ GameObject:
   m_Layer: 5
   m_Name: Fan
   m_TagString: Trash
-  m_Icon: {fileID: 2800000, guid: 0cb58fcc3960d7549ad297bf2f64383d, type: 3}
+  m_Icon: {fileID: 2800000, guid: c7da3d7f2e9b10b488f12b8c6a9f2d95, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
