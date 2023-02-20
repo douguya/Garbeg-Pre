@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b885a06855d8dbf419b315dc2316fb66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: "\u30DB\u30C3\u30C8\u30AB\u30FC\u30DA\u30C3\u30C8"
+  Name: "\u7C97\u5927\u3054\u307F\uFF08\u5869\u30D3\u30FB\u30B4\u30E0\u88FD\u54C1\u306A\u3069\uFF09"
   L_Category: 9
   S_Category: 92
   MarkName: 7
