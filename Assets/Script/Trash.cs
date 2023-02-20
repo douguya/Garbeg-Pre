@@ -9,9 +9,6 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 {
 
 
-    // 以下ごみのステータス
-
-
     public enum Select_largeCategory
     {
 
@@ -107,14 +104,14 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
     public enum Marks
     {
 
-       段ボール,
-       紙,
-       プラスチック,
-       ペットボトル,
-       スチール,
-       アルミ,
-       紙パック,
-       マークなし
+        段ボール,
+        紙,
+        プラスチック,
+        ペットボトル,
+        スチール,
+        アルミ,
+        紙パック,
+        マークなし
     }
 
 
@@ -124,6 +121,10 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 
     public string Name;
 
+
+    public GameObject Enter;
+    public GameObject Stay;
+    public GameObject Exist;
 
     [Tooltip("大カテゴリ")]
     public Select_largeCategory L_Category;
@@ -258,7 +259,7 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
     float WashTiem = 1.5f;
 
     public Vector3 befor_Drag;//なんやかんやで元の位置に戻すためのやつ
-    public Vector3 CorectPosition=new Vector3 (500,500,500);//正解したオブジェクトの追放処分　ごみに全権持たせすぎてDestroyで消すと処理がだるい　でもごみ箱すべてに正誤判定付けるよりはましだと思った　全部で43個よ？ごみ箱。 ゴミならまぁ12は超えないだろうし
+    public Vector3 CorectPosition = new Vector3(500, 500, 500);//正解したオブジェクトの追放処分　ごみに全権持たせすぎてDestroyで消すと処理がだるい　でもごみ箱すべてに正誤判定付けるよりはましだと思った　全部で43個よ？ごみ箱。 ゴミならまぁ12は超えないだろうし
 
 
     public GameObject Commentary;//間違えたときの解説オブジェクト
@@ -270,12 +271,12 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
     GameObject Ondrag_Trashs;//ドラッグ状態のごみの居場所
     GameObject WEffect;//洗浄効果
     GameObject DEffect;//分解効果
-   public GameObject Box_Strage;//ごみ箱
+    public GameObject Box_Strage;//ごみ箱
 
     GameObject Scene_Manager;//シーンマネージャー
 
     public GameObject Category_Strage;//分類箱の一時保存
-    public  bool Indrag = false;
+    public bool Indrag = false;
 
     //以下分解洗浄ボタンにかかわる変数
     [NonSerialized]
@@ -336,7 +337,12 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
     public Text Text;
     public static bool Warld_Drag;//シーン全体で今ドラッグ中かどうか
 
+    private float Filde_UpLime = -198.35f;//青いフィールドの上辺のｙ座標
+    public bool UnderLime = false;
+    public float Collider_Bottom;
 
+    public float a;
+    public float b;
     //以下テスト用
     public bool Corect;//正誤
     public bool OutingBox = true;
@@ -358,12 +364,20 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
         Ondrag_Trashs = GameObject.FindWithTag("Ondrag_Trashs");
         NameText = GameObject.FindWithTag("Text");
         Text = NameText.GetComponent<Text>();
-        Scene_Manager= GameObject.FindWithTag("SceneManager");
+        Scene_Manager = GameObject.FindWithTag("SceneManager");
 
         Mouse[0] = Input.mousePosition;//mouseの座標の取得
         point = new Vector2(Screen.width / 2, Screen.height / 2);
 
+        UnderLime = false;
 
+
+
+
+        var BoxC_Size = GetComponent<BoxCollider2D>().size.y;
+        var BoxC_offset = GetComponent<BoxCollider2D>().offset.y;
+
+        Collider_Bottom = (BoxC_Size / 2) + BoxC_offset;//中心からボックスコライダーの下部までの長さ
 
     }
 
@@ -382,13 +396,6 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
             CanDiss = false;
 
             DissaSound();//分解サウンド
-
-            if (NeedDisa == false)
-            {
-                //  OneTime_Disassemblyed = true;
-            }
-
-
 
         }
 
@@ -437,28 +444,40 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
         }
 
         //以上分解洗浄フィールドに入れたときに一緒に動く
+        var Positiom_y = GetComponent<RectTransform>().anchoredPosition.y;
 
+        a = Positiom_y;
+        b = Positiom_y - Collider_Bottom;
 
+        if (Positiom_y - Collider_Bottom < Filde_UpLime)
+        {
+            UnderLime = true;
+        }
+        else
+        {
+            UnderLime = false;
+        }
 
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-
+        Enter = collision.gameObject;
         if (collision.tag == "CategoryBox")//大カテゴリへの接触
         {
-            
+
             collision.GetComponent<Outline>().enabled = true;//ごみ箱オブジェクトの縁をとる
             Large_Category.GetComponent<BoxManager>().ReMove();//大カテゴリの箱を初期値に移動
             Large_Category.GetComponent<BoxManager>().BoxChange(collision.gameObject.name);//箱を接触したカテゴリの名前で判定して小カテゴリの変遷
             Large_Category.GetComponent<BoxManager>().Move = true;//小カテゴリの移動
             Large_Category.GetComponent<BoxManager>().Sink = false;//小カテゴリの移動
 
-            if (Category_Strage != null) {
-                
+            if (Category_Strage != null)
+            {
+
                 if (Category_Strage != collision.gameObject)//要するに別のカテゴリーboxに入った時に以前のカテゴリーboxの縁取りを消す
                 {
-                   
+
 
                     Category_Strage.GetComponent<Outline>().enabled = false;
                 }
@@ -472,7 +491,7 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 
         if (collision.tag == "Box" && Indrag && Large_Category.GetComponent<BoxManager>().Move == false)//CanTrashはある意味でドラッグ中の判定の反転になる
         {
-            if (Box_Strage!=null)
+            if (Box_Strage != null)
             {
 
                 if (Category_Strage != collision.gameObject)//要するに別のカテゴリーboxに入った時に以前のカテゴリーboxの縁取りを消す
@@ -484,21 +503,21 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
                 }
 
             }
-        
+
             Box_Strage = collision.gameObject;
             Box_Strage.GetComponent<Outline>().enabled = true;//ごみ箱オブジェクトの縁をとる
 
         }
-      
- 
- 
+
+
+
 
 
     }
     public void OnTriggerStay2D(Collider2D collision)
     {
 
-
+        Stay = collision.gameObject;
         if (collision.tag == "CategoryBox")
         {
             Large_Category.GetComponent<BoxManager>().Move = true;
@@ -523,17 +542,13 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 
             CanTrach = true;
 
-
-            //  Large_Category.GetComponent<BoxManager2>().ReMove();
-
         }
-        else if(collision.tag != "Trash")
+        else
         {
-         
-           
+
             CanTrach = false;
         }
-       
+
         if (collision.tag == "Disassembly" && Indrag)//  分解ボタンの上
         {
             OnDissField = true;
@@ -557,18 +572,15 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
             OnWashField = false;
 
         }
+
     }
 
 
     public void OnTriggerExit2D(Collider2D collision)
     {
+        Exist = collision.gameObject;
         OutingBox = true;
-        if (collision.tag == "CategoryBox" && Indrag)
-        {
-           // Large_Category.GetComponent<BoxManager>().Move = false;
 
-
-        }
 
 
 
@@ -587,7 +599,7 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
         }
         if (collision.tag == "Box" && Indrag)//CanTrashはある意味でドラッグ中の判定の反転になる
         {
-           
+
             collision.GetComponent<Outline>().enabled = false;//ごみ箱オブジェクトの縁をとる
         }
 
@@ -603,7 +615,7 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
         befor_Drag = GetComponent<RectTransform>().anchoredPosition;//ドラッグ開始位置の記録
 
         Mouse[0] = Input.mousePosition;//ドラッグ開始位置を記録
-      
+
         Other.GetComponent<Other>().TrashDrag = true;//矢印の点滅開始
         OnDissField = false;
         OnWashField = false;
@@ -640,12 +652,12 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 
 
         Warld_Drag = false;
-       
+
         Other.GetComponent<Other>().TrashDrag = false;//矢印の点滅終了
         transform.localScale = new Vector3(TrueScale, TrueScale, TrueScale);//ごみの拡大表示の終了
-       
 
-        
+
+
 
     }
 
@@ -702,12 +714,19 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 
         OnDissField = false;
         OnWashField = false;
+
+        if (UnderLime)
+        {
+            var posi = GetComponent<RectTransform>().anchoredPosition;
+            GetComponent<RectTransform>().anchoredPosition = new Vector2(posi.x, Filde_UpLime + Collider_Bottom * 3);
+
+        }
+
+
+
     }
 
-    public void ChangeImage()
-    {
 
-    }
 
 
     public void Disas()
@@ -866,7 +885,8 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
             {
                 EndDisaPosi = PartDisaPosi[2];
             }
-        } else if (PartsCount == 2)
+        }
+        else if (PartsCount == 2)
         {
             if (PartsNum == 1)
             {
@@ -890,24 +910,27 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
         {
             IncorrectSprite = Before_Dissa;
             Corect = false;
-        } else if (NeedWash)//洗浄の必要があるとき
+        }
+        else if (NeedWash)//洗浄の必要があるとき
         {
             IncorrectSprite = Before_Wash;
             Corect = false;
-        } else if (obj.transform.parent.parent.name != Conect_LCategory(L_Category.ToString()))//大カテゴリが違うとき　親の名前とEnumで判定
+        }
+        else if (obj.transform.parent.parent.name != Conect_LCategory(L_Category.ToString()))//大カテゴリが違うとき　親の名前とEnumで判定
         {
             IncorrectSprite = Miss_LCategory(obj.transform.parent.parent.name);
             Corect = false;
         }
         else if ("" + ((int)S_Category % 10) != obj.name)//ボックスの名前がEnumとかみ合わない場合
         {
-            Debug.Log((int)S_Category+" "+((int)S_Category % 10)+""+obj.name);
+            Debug.Log((int)S_Category + " " + ((int)S_Category % 10) + "" + obj.name);
             IncorrectSprite = MissImages[System.Int32.Parse(obj.name)];//ボックスの名前の画像を出す
             Corect = false;
         }
 
-        if (Corect == false) {
-           
+        if (Corect == false)
+        {
+
             SoundManager.GetComponent<SoundManager>().Incorrect_Play();
             Commentary.GetComponent<Image>().sprite = IncorrectSprite;
             Commentary.SetActive(true);
@@ -918,7 +941,7 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
         {
             obj.GetComponent<Outline>().enabled = false;//ごみ箱の強調表示の終了
             GameObject[] Trash = GameObject.FindGameObjectsWithTag("Trash");
-            int Trashes= Trash.Length;
+            int Trashes = Trash.Length;
             befor_Drag = CorectPosition;
 
             PointManager.CorectPoint++;
@@ -929,15 +952,18 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
                 Scene_Manager.GetComponent<SceneManagerSC>().Finish();
             }
 
-         
+
         }
         GetComponent<RectTransform>().anchoredPosition = befor_Drag;
     }
 
-
+    /// <summary>
+    ///     バーカバーカ
+    ///</summary>
     public string Conect_LCategory(string str)//大カテゴリのEnumから対応するはずの親の名前を抜き出す
     {
-        switch (str) {
+        switch (str)
+        {
             case "まだ使えるもの":
                 return "Usable";
 
@@ -1044,7 +1070,7 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 
         Text.text = Name;
         NameText.GetComponent<Mark>().ChangeMark(MarkName.ToString());
-      
+
     }
 
     public void Name_MarkLost()
@@ -1055,8 +1081,9 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 
     public void OnMouseEnter()
     {
-        if (Warld_Drag == false) {
-          
+        if (Warld_Drag == false)
+        {
+
             Text.text = Name;
             NameText.GetComponent<Mark>().ChangeMark(MarkName.ToString());
         }
@@ -1065,7 +1092,7 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
     {
         if (Warld_Drag == false)
         {
-          
+
             Text.text = "";
             NameText.GetComponent<Mark>().ChangeMark("--");
         }
