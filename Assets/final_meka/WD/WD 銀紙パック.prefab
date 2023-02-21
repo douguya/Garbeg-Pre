@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5699976742019660408
+--- !u!1 &6816606513963704887
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,27 +8,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5699976742019660409}
-  - component: {fileID: 5699976742019660415}
-  - component: {fileID: 5699976742019660414}
-  - component: {fileID: 5699976742019660413}
-  - component: {fileID: 5699976742019660412}
-  - component: {fileID: 5699976742019660411}
-  - component: {fileID: 5699976742019660410}
+  - component: {fileID: 2686223451742508354}
+  - component: {fileID: 4652604545412911326}
+  - component: {fileID: 8542266976995447639}
+  - component: {fileID: 6850503751461248654}
+  - component: {fileID: 5257303305191859117}
+  - component: {fileID: 3412345014288230770}
+  - component: {fileID: 9172640795012040820}
   m_Layer: 0
-  m_Name: Wash Paper Pack
+  m_Name: "WD \u9280\u7D19\u30D1\u30C3\u30AF"
   m_TagString: Trash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &5699976742019660409
+--- !u!224 &2686223451742508354
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5699976742019660408}
+  m_GameObject: {fileID: 6816606513963704887}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -38,16 +38,16 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 242.0653, y: 13.6924}
-  m_SizeDelta: {x: 67.6875, y: 133.1189}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &5699976742019660415
+  m_AnchoredPosition: {x: -41.049, y: -160.16}
+  m_SizeDelta: {x: 124.4864, y: 113.0151}
+  m_Pivot: {x: 0.5, y: 0.49999997}
+--- !u!114 &4652604545412911326
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5699976742019660408}
+  m_GameObject: {fileID: 6816606513963704887}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5637d285d81b89d4b87eeec5b1aa5966, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0d512dfd15ddd2740ab6c65892482d31, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -71,49 +71,48 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5699976742019660414
+--- !u!114 &8542266976995447639
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5699976742019660408}
+  m_GameObject: {fileID: 6816606513963704887}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b885a06855d8dbf419b315dc2316fb66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: "\u6D17\u308F\u308C\u305F\u725B\u4E73\u30D1\u30C3\u30AF"
+  Name: "\u6D17\u308F\u308C\u3066\u5206\u89E3\u3055\u308C\u305F\u9280\u7D19\u30D1\u30C3\u30AF"
   Enter: {fileID: 0}
   Stay: {fileID: 0}
   Exist: {fileID: 0}
   L_Category: 3
-  S_Category: 33
-  MarkName: 6
+  S_Category: 34
+  MarkName: 7
   NeedDisa: 1
   NeedWash: 1
   Parts:
-  - {fileID: 1659500039151339120, guid: 90160ef859012c947830cc7182c5d035, type: 3}
-  WashedParts:
-  - {fileID: 5360876891104728054, guid: 9ad1493609c962445b1a48e36156718e, type: 3}
-  WashedSprite: {fileID: 21300000, guid: e6efd8035f6c2b94ba5bab996e95d3ad, type: 3}
-  PartsCount: 1
+  - {fileID: 0}
+  WashedParts: []
+  WashedSprite: {fileID: 0}
+  PartsCount: 0
   PartsNum: 0
-  Before_Dissa: {fileID: 21300000, guid: 4049c5ae7a008634491fb4a359c4b7c7, type: 3}
+  Before_Dissa: {fileID: 0}
   Before_Wash: {fileID: 21300000, guid: 1cae0eed7c4d402409cd43bfc773a13d, type: 3}
-  Miss_Usable: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
-  Miss_Garbage: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
-  Miss_metals: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
-  Miss_paper: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
-  Miss_cloth: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
-  Miss_biomass: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
-  Miss_plastic: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
-  Miss_bottles: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
-  Miss_Dangerous: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
-  Miss_Oversized_Garbage: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
-  Miss_Burnable: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
-  Miss_landfill: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
-  Miss_Costs_money: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  Miss_Usable: {fileID: 21300000, guid: 8991e2405ced16f4cb55739b8f16e7e3, type: 3}
+  Miss_Garbage: {fileID: 21300000, guid: 8991e2405ced16f4cb55739b8f16e7e3, type: 3}
+  Miss_metals: {fileID: 21300000, guid: 8991e2405ced16f4cb55739b8f16e7e3, type: 3}
+  Miss_paper: {fileID: 21300000, guid: 8991e2405ced16f4cb55739b8f16e7e3, type: 3}
+  Miss_cloth: {fileID: 21300000, guid: 8991e2405ced16f4cb55739b8f16e7e3, type: 3}
+  Miss_biomass: {fileID: 21300000, guid: 8991e2405ced16f4cb55739b8f16e7e3, type: 3}
+  Miss_plastic: {fileID: 21300000, guid: 8991e2405ced16f4cb55739b8f16e7e3, type: 3}
+  Miss_bottles: {fileID: 21300000, guid: 8991e2405ced16f4cb55739b8f16e7e3, type: 3}
+  Miss_Dangerous: {fileID: 21300000, guid: 8991e2405ced16f4cb55739b8f16e7e3, type: 3}
+  Miss_Oversized_Garbage: {fileID: 21300000, guid: 8991e2405ced16f4cb55739b8f16e7e3, type: 3}
+  Miss_Burnable: {fileID: 21300000, guid: 8991e2405ced16f4cb55739b8f16e7e3, type: 3}
+  Miss_landfill: {fileID: 21300000, guid: 8991e2405ced16f4cb55739b8f16e7e3, type: 3}
+  Miss_Costs_money: {fileID: 21300000, guid: 8991e2405ced16f4cb55739b8f16e7e3, type: 3}
   MissImages: []
   PartDisaPosi: []
   DisaPosi_keep: {x: 0, y: 0, z: 0}
@@ -137,119 +136,21 @@ MonoBehaviour:
   b: 0
   Corect: 0
   OutingBox: 1
---- !u!222 &5699976742019660413
+--- !u!222 &6850503751461248654
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5699976742019660408}
+  m_GameObject: {fileID: 6816606513963704887}
   m_CullTransparentMesh: 1
---- !u!114 &5699976742019660412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5699976742019660408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 5699976742019660414}
-          m_TargetAssemblyTypeName: Trash, Assembly-CSharp
-          m_MethodName: ClickDown
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 3
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 5699976742019660414}
-          m_TargetAssemblyTypeName: Trash, Assembly-CSharp
-          m_MethodName: ClickUP
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 5699976742019660414}
-          m_TargetAssemblyTypeName: Trash, Assembly-CSharp
-          m_MethodName: OnMouseExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 5699976742019660414}
-          m_TargetAssemblyTypeName: Trash, Assembly-CSharp
-          m_MethodName: OnMouseEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!50 &5699976742019660411
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5699976742019660408}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 3
---- !u!61 &5699976742019660410
+--- !u!61 &5257303305191859117
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5699976742019660408}
+  m_GameObject: {fileID: 6816606513963704887}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -267,5 +168,103 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 42.18, y: 45.2}
+  m_Size: {x: 30, y: 50}
   m_EdgeRadius: 0
+--- !u!50 &3412345014288230770
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6816606513963704887}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 3
+--- !u!114 &9172640795012040820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6816606513963704887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8542266976995447639}
+          m_TargetAssemblyTypeName: Trash, Assembly-CSharp
+          m_MethodName: OnMouseEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8542266976995447639}
+          m_TargetAssemblyTypeName: Trash, Assembly-CSharp
+          m_MethodName: ClickDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8542266976995447639}
+          m_TargetAssemblyTypeName: Trash, Assembly-CSharp
+          m_MethodName: ClickUP
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8542266976995447639}
+          m_TargetAssemblyTypeName: Trash, Assembly-CSharp
+          m_MethodName: OnMouseExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
