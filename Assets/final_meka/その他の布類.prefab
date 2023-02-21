@@ -38,8 +38,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28.014893, y: 97.80005}
-  m_SizeDelta: {x: 43.97, y: 81.144}
+  m_AnchoredPosition: {x: 55.187622, y: 91.93323}
+  m_SizeDelta: {x: 98.3154, y: 69.4104}
   m_Pivot: {x: 0.5, y: 0.49999997}
 --- !u!114 &4071701644898398761
 MonoBehaviour:
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 613e7df0840cf044d8a467a6219f6dfc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cc3a627245e8bb14aba89f0d3922930b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -83,32 +83,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b885a06855d8dbf419b315dc2316fb66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: "\u30A2\u30EB\u30DF\u306E\u30B3\u30FC\u30D2\u30FC\u7F36"
-  L_Category: 2
-  S_Category: 20
-  MarkName: 5
+  Name: "\u30AF\u30C3\u30B7\u30E7\u30F3"
+  Enter: {fileID: 0}
+  Stay: {fileID: 0}
+  Exist: {fileID: 0}
+  L_Category: 4
+  S_Category: 41
+  MarkName: 7
   NeedDisa: 0
-  NeedWash: 1
+  NeedWash: 0
   Parts: []
   WashedParts: []
-  WashedSprite: {fileID: 21300000, guid: 613e7df0840cf044d8a467a6219f6dfc, type: 3}
+  WashedSprite: {fileID: 0}
   PartsCount: 0
   PartsNum: 0
   Before_Dissa: {fileID: 0}
   Before_Wash: {fileID: 21300000, guid: 1cae0eed7c4d402409cd43bfc773a13d, type: 3}
-  Miss_Usable: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_Garbage: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_metals: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_paper: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_cloth: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_biomass: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_plastic: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_bottles: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_Dangerous: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_Oversized_Garbage: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_Burnable: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_landfill: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_Costs_money: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
+  Miss_Usable: {fileID: 21300000, guid: 4197f015d67921f4ca515db10a729c8b, type: 3}
+  Miss_Garbage: {fileID: 21300000, guid: 4197f015d67921f4ca515db10a729c8b, type: 3}
+  Miss_metals: {fileID: 21300000, guid: 4197f015d67921f4ca515db10a729c8b, type: 3}
+  Miss_paper: {fileID: 21300000, guid: 4197f015d67921f4ca515db10a729c8b, type: 3}
+  Miss_cloth: {fileID: 21300000, guid: 4197f015d67921f4ca515db10a729c8b, type: 3}
+  Miss_biomass: {fileID: 21300000, guid: 4197f015d67921f4ca515db10a729c8b, type: 3}
+  Miss_plastic: {fileID: 21300000, guid: 4197f015d67921f4ca515db10a729c8b, type: 3}
+  Miss_bottles: {fileID: 21300000, guid: 4197f015d67921f4ca515db10a729c8b, type: 3}
+  Miss_Dangerous: {fileID: 21300000, guid: 4197f015d67921f4ca515db10a729c8b, type: 3}
+  Miss_Oversized_Garbage: {fileID: 21300000, guid: 4197f015d67921f4ca515db10a729c8b, type: 3}
+  Miss_Burnable: {fileID: 21300000, guid: 4197f015d67921f4ca515db10a729c8b, type: 3}
+  Miss_landfill: {fileID: 21300000, guid: 4197f015d67921f4ca515db10a729c8b, type: 3}
+  Miss_Costs_money: {fileID: 21300000, guid: 4197f015d67921f4ca515db10a729c8b, type: 3}
   MissImages: []
   PartDisaPosi: []
   DisaPosi_keep: {x: 0, y: 0, z: 0}
@@ -126,6 +129,10 @@ MonoBehaviour:
   DissaSound_bool: 0
   NameText: {fileID: 0}
   Text: {fileID: 0}
+  UnderLime: 0
+  Collider_Bottom: 0
+  a: 0
+  b: 0
   Corect: 0
   OutingBox: 1
 --- !u!222 &7268951825444343733
