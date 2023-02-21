@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b885a06855d8dbf419b315dc2316fb66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: "\u6247\u5B50"
+  Name: "\u30DB\u30C3\u30C8\u30AB\u30FC\u30DA\u30C3\u30C8"
   L_Category: 5
   S_Category: 50
   MarkName: 7
@@ -74,25 +74,25 @@ MonoBehaviour:
   PartsNum: 0
   Before_Dissa: {fileID: 0}
   Before_Wash: {fileID: 0}
-  Miss_Usable: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_Garbage: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_metals: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_paper: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_cloth: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_biomass: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_plastic: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_bottles: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_Dangerous: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_Oversized_Garbage: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_Burnable: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_landfill: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  Miss_Costs_money: {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
+  Miss_Usable: {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  Miss_Garbage: {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  Miss_metals: {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  Miss_paper: {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  Miss_cloth: {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  Miss_biomass: {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  Miss_plastic: {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  Miss_bottles: {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  Miss_Dangerous: {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  Miss_Oversized_Garbage: {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  Miss_Burnable: {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  Miss_landfill: {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  Miss_Costs_money: {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
   MissImages:
-  - {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  - {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  - {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  - {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
-  - {fileID: 21300000, guid: 19d29347f3b06bd44a45610640a63df3, type: 3}
+  - {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  - {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  - {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  - {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  - {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
   PartDisaPosi: []
   DisaPosi_keep: {x: 490, y: -68, z: 0}
   befor_Drag: {x: 0, y: 0, z: 0}
