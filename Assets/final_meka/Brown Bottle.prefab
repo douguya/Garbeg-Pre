@@ -110,7 +110,12 @@ MonoBehaviour:
   Miss_Burnable: {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
   Miss_landfill: {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
   Miss_Costs_money: {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
-  MissImages: []
+  MissImages:
+  - {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
+  - {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
+  - {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
+  - {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
+  - {fileID: 21300000, guid: 3a67ff8f3fa729b4cb1c69714b24aea5, type: 3}
   PartDisaPosi: []
   DisaPosi_keep: {x: 0, y: 0, z: 0}
   befor_Drag: {x: 0, y: 0, z: 0}
