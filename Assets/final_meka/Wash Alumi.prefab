@@ -99,19 +99,19 @@ MonoBehaviour:
   PartsNum: 0
   Before_Dissa: {fileID: 0}
   Before_Wash: {fileID: 21300000, guid: 1cae0eed7c4d402409cd43bfc773a13d, type: 3}
-  Miss_Usable: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_Garbage: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_metals: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_paper: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_cloth: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_biomass: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_plastic: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_bottles: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_Dangerous: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_Oversized_Garbage: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_Burnable: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_landfill: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
-  Miss_Costs_money: {fileID: 21300000, guid: e856a38e1012123439642fc64cb39f54, type: 3}
+  Miss_Usable: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
+  Miss_Garbage: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
+  Miss_metals: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
+  Miss_paper: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
+  Miss_cloth: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
+  Miss_biomass: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
+  Miss_plastic: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
+  Miss_bottles: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
+  Miss_Dangerous: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
+  Miss_Oversized_Garbage: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
+  Miss_Burnable: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
+  Miss_landfill: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
+  Miss_Costs_money: {fileID: 21300000, guid: 633300496dc29b6429dc0c1db38d2628, type: 3}
   MissImages: []
   PartDisaPosi: []
   DisaPosi_keep: {x: 0, y: 0, z: 0}
