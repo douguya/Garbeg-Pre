@@ -18,7 +18,7 @@ GameObject:
   m_Layer: 0
   m_Name: "\u30B7\u30E5\u30EC\u30C3\u30C0\u30FC\u304F\u305A"
   m_TagString: Trash
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2800000, guid: 6720f8c6645de3b4188dbc6e0be7227e, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -112,7 +112,12 @@ MonoBehaviour:
   Miss_Burnable: {fileID: 21300000, guid: c8b446a32d177c04aa5642c0bc4efe8e, type: 3}
   Miss_landfill: {fileID: 21300000, guid: c8b446a32d177c04aa5642c0bc4efe8e, type: 3}
   Miss_Costs_money: {fileID: 21300000, guid: c8b446a32d177c04aa5642c0bc4efe8e, type: 3}
-  MissImages: []
+  MissImages:
+  - {fileID: 21300000, guid: c8b446a32d177c04aa5642c0bc4efe8e, type: 3}
+  - {fileID: 21300000, guid: c8b446a32d177c04aa5642c0bc4efe8e, type: 3}
+  - {fileID: 21300000, guid: c8b446a32d177c04aa5642c0bc4efe8e, type: 3}
+  - {fileID: 21300000, guid: c8b446a32d177c04aa5642c0bc4efe8e, type: 3}
+  - {fileID: 21300000, guid: c8b446a32d177c04aa5642c0bc4efe8e, type: 3}
   PartDisaPosi: []
   DisaPosi_keep: {x: 0, y: 0, z: 0}
   befor_Drag: {x: 0, y: 0, z: 0}
