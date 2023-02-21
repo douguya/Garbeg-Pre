@@ -51,14 +51,5 @@ public class Garbage_Generation : MonoBehaviour
 
 
     }
-    public void Generat2()//‚²‚İ‚Ì¶¬@‚²‚İ‚Ì”‚ª¶¬“_‚ğ‰º‰ñ‚Á‚Ä‚¢‚È‚¢ê‡
-    {
-
-        for (int loop = 0; loop < GenerationPoint.Count; loop++)
-        {
-
-        }
-
-
-    }
+   
 }
