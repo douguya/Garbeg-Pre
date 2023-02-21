@@ -84,6 +84,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: "\u30AB\u30C3\u30D7\u30E9\u30FC\u30E1\u30F3"
+  Enter: {fileID: 0}
+  Stay: {fileID: 0}
+  Exist: {fileID: 0}
   L_Category: 3
   S_Category: 35
   MarkName: 1
@@ -133,6 +136,10 @@ MonoBehaviour:
   DissaSound_bool: 0
   NameText: {fileID: 0}
   Text: {fileID: 0}
+  UnderLime: 0
+  Collider_Bottom: 0
+  a: 0
+  b: 0
   Corect: 0
   OutingBox: 1
 --- !u!222 &4894484203179406724
