@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 107441485677123055}
   - component: {fileID: 8512969447267131467}
   - component: {fileID: 121326132645870165}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Paper Pack Disa
-  m_TagString: Untagged
+  m_TagString: Trash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

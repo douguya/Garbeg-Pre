@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 3629230684577745103}
   - component: {fileID: -7171952921335149253}
   - component: {fileID: 7634710965532262781}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ramen Disa
-  m_TagString: Untagged
+  m_TagString: Trash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

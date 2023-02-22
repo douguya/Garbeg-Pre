@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4079010326869161500}
   - component: {fileID: 4079010326869161502}
   - component: {fileID: 4079010326869161503}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WD RamenC
   m_TagString: Trash
   m_Icon: {fileID: 2800000, guid: 6578c4227d026984a8b5d952ce3f9148, type: 3}

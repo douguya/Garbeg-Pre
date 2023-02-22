@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5273184882503079236}
   - component: {fileID: 5273184882503079237}
   - component: {fileID: 5273184882503079242}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Alumi
   m_TagString: Trash
   m_Icon: {fileID: 2800000, guid: 613e7df0840cf044d8a467a6219f6dfc, type: 3}
