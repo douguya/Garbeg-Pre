@@ -65,7 +65,7 @@ MonoBehaviour:
   Enter: {fileID: 0}
   Stay: {fileID: 0}
   Exist: {fileID: 0}
-  L_Category: 5
+  L_Category: 9
   S_Category: 93
   MarkName: 7
   NeedDisa: 0
