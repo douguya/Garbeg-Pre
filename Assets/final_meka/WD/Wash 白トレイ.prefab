@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5253899889831971870}
   - component: {fileID: 9077330663060173621}
   - component: {fileID: 1848278130579144100}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "Wash \u767D\u30C8\u30EC\u30A4"
   m_TagString: Trash
   m_Icon: {fileID: 2800000, guid: 5fbde240a6726ef4e8d34e4efff024e1, type: 3}
@@ -91,7 +91,7 @@ MonoBehaviour:
   S_Category: 62
   MarkName: 7
   NeedDisa: 0
-  NeedWash: 1
+  NeedWash: 0
   Parts: []
   WashedParts: []
   WashedSprite: {fileID: 0}

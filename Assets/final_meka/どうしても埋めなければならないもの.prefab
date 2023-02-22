@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6087319381403630912}
   - component: {fileID: 8000810708363506194}
   - component: {fileID: 1019503102001407403}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u3069\u3046\u3057\u3066\u3082\u57CB\u3081\u306A\u3051\u308C\u3070\u306A\u3089\u306A\u3044\u3082\u306E"
   m_TagString: Trash
   m_Icon: {fileID: 2800000, guid: 76452079135ebe248879e4c42ffbf5cb, type: 3}
@@ -38,7 +38,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 52.948486, y: 93.64441}
+  m_AnchoredPosition: {x: 53.4, y: 94.1}
   m_SizeDelta: {x: 93.8372, y: 72.8328}
   m_Pivot: {x: 0.5, y: 0.49999997}
 --- !u!114 &2327476049359982796
@@ -98,7 +98,7 @@ MonoBehaviour:
   PartsCount: 0
   PartsNum: 0
   Before_Dissa: {fileID: 0}
-  Before_Wash: {fileID: 21300000, guid: 1cae0eed7c4d402409cd43bfc773a13d, type: 3}
+  Before_Wash: {fileID: 0}
   Miss_Usable: {fileID: 21300000, guid: 58edad45110a16942a709d32c74d4589, type: 3}
   Miss_Garbage: {fileID: 21300000, guid: 58edad45110a16942a709d32c74d4589, type: 3}
   Miss_metals: {fileID: 21300000, guid: 58edad45110a16942a709d32c74d4589, type: 3}

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1400779334789527345}
   - component: {fileID: 8667957882602094}
   - component: {fileID: 6197863780535223817}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u30B9\u30D7\u30EC\u30FC\u7F36\u672C\u4F53"
   m_TagString: Trash
   m_Icon: {fileID: 2800000, guid: f507476eb97b2fc4db5b5c13495fd949, type: 3}
@@ -90,7 +90,7 @@ MonoBehaviour:
   L_Category: 2
   S_Category: 22
   MarkName: 7
-  NeedDisa: 1
+  NeedDisa: 0
   NeedWash: 0
   Parts:
   - {fileID: 313888111686333406}
@@ -100,7 +100,7 @@ MonoBehaviour:
   PartsCount: 1
   PartsNum: 0
   Before_Dissa: {fileID: 0}
-  Before_Wash: {fileID: 21300000, guid: 1cae0eed7c4d402409cd43bfc773a13d, type: 3}
+  Before_Wash: {fileID: 0}
   Miss_Usable: {fileID: 21300000, guid: a357e7d5be251f84c8609bd14f18edbd, type: 3}
   Miss_Garbage: {fileID: 21300000, guid: a357e7d5be251f84c8609bd14f18edbd, type: 3}
   Miss_metals: {fileID: 21300000, guid: a357e7d5be251f84c8609bd14f18edbd, type: 3}

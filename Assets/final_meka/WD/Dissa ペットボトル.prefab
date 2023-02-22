@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7410477682441570604}
   - component: {fileID: 7410477682441570605}
   - component: {fileID: 7410477682441570606}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "Dissa \u30DA\u30C3\u30C8\u30DC\u30C8\u30EB"
   m_TagString: Trash
   m_Icon: {fileID: 2800000, guid: 1b666a6a947f77044bdc51027b4e1568, type: 3}

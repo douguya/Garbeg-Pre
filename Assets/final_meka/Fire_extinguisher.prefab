@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5970680719307415330}
   - component: {fileID: 5970680719307415333}
   - component: {fileID: 5970680719307415332}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Fire_extinguisher
   m_TagString: Trash
   m_Icon: {fileID: 2800000, guid: 31fe67b3adde1f5489242e81521eab4a, type: 3}

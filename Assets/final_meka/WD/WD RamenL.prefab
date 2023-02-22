@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5738258944759828601}
   - component: {fileID: 5738258944759828603}
   - component: {fileID: 5738258944759828602}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WD RamenL
   m_TagString: Trash
   m_Icon: {fileID: 2800000, guid: ff7dfbf39d364684e9f0d9c07719354e, type: 3}
@@ -90,8 +90,8 @@ MonoBehaviour:
   L_Category: 3
   S_Category: 38
   MarkName: 1
-  NeedDisa: 1
-  NeedWash: 1
+  NeedDisa: 0
+  NeedWash: 0
   Parts:
   - {fileID: 8714425340976743521, guid: e39419c6a6906cb4fbc195a2e2c01328, type: 3}
   - {fileID: 8462944491500116720, guid: a677f5a84781e834b8eb7f36df8a0727, type: 3}

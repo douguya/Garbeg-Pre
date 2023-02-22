@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4448357344094045345}
   - component: {fileID: 6491122311279857278}
   - component: {fileID: 722204160337407864}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u9280\u7D19\u30D1\u30C3\u30AF"
   m_TagString: Trash
   m_Icon: {fileID: 2800000, guid: 457c25ab4afbc144f91a0934657215b1, type: 3}
@@ -99,7 +99,7 @@ MonoBehaviour:
   WashedSprite: {fileID: 21300000, guid: 97be36b4bed53aa49b1eed6d4c79ba53, type: 3}
   PartsCount: 0
   PartsNum: 0
-  Before_Dissa: {fileID: 0}
+  Before_Dissa: {fileID: 21300000, guid: 4049c5ae7a008634491fb4a359c4b7c7, type: 3}
   Before_Wash: {fileID: 21300000, guid: 1cae0eed7c4d402409cd43bfc773a13d, type: 3}
   Miss_Usable: {fileID: 21300000, guid: 8991e2405ced16f4cb55739b8f16e7e3, type: 3}
   Miss_Garbage: {fileID: 21300000, guid: 8991e2405ced16f4cb55739b8f16e7e3, type: 3}
