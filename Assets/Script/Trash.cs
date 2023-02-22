@@ -89,7 +89,7 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
         粗大ごみ_塩ビ製品_ゴミ製品など = 93,
 
         ______________どうしても燃やさなければならないもの = 1000,
-        革製品_ゴム製品_塩ビ製品 = 100,
+        どうしても燃やさなければならないもの = 100,
         おむつ_ゴ生理用品_ペットシート = 101,
 
         ______________どうしても埋め立てなければならないもの = 1000,
@@ -408,8 +408,7 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
         {
             CanWash = false;
 
-
-
+       
             WashSound();//洗浄サウンド
 
             StartCoroutine("Wash2");
@@ -624,53 +623,45 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 
     public void OnDrag(PointerEventData eventData)
     {
-
-
-
-
         // transform.position = eventData.position;
         // Overlay の場合
-        Mouse[1] = Input.mousePosition;//移動後の位置を記録
-
-        if (Mouse[0] != Mouse[1])//食い違ったら差分を移動
+        if (CanDiss == false && CanWash == false && OneTime_Disassemblyed == false && OneTime_Washed == false)
         {
-            transform.position += (Mouse[1] - Mouse[0]);//差分で移動
-            Mouse[0] = Input.mousePosition;//現在位置を記録
+
+
+            Mouse[1] = Input.mousePosition;//移動後の位置を記録
+
+            if (Mouse[0] != Mouse[1])//食い違ったら差分を移動
+            {
+                transform.position += (Mouse[1] - Mouse[0]);//差分で移動
+                Mouse[0] = Input.mousePosition;//現在位置を記録
+            }
         }
-
-
-
-
-
-
-
 
     }
     public void OnEndDrag(PointerEventData eventData)//ドラッグじゃないといけないものを入れる
     {
         //SoundManager.GetComponent<SoundManager>().CommandSound2_Play();//コマンド２
 
-
         Warld_Drag = false;
 
         Other.GetComponent<Other>().TrashDrag = false;//矢印の点滅終了
         transform.localScale = new Vector3(TrueScale, TrueScale, TrueScale);//ごみの拡大表示の終了
 
-
-
-
     }
 
     public void ClickDown()
     {
-
-        Indrag = true;//ドラッグ中判定の終了
-        OnDissField = false;
-        OnWashField = false;
-        Command.GetComponent<Command>().Move = true;
-        Command.GetComponent<Command>().Sink = false;
-        transform.localScale = new Vector3(LargeScale, LargeScale, LargeScale);
-        transform.SetParent(Ondrag_Trashs.transform);//Ondragとか書いてあるけど　正直クリック段階で動かしたい
+        if (CanDiss == false && CanWash == false&& OneTime_Disassemblyed==false&& OneTime_Washed==false)
+        {
+            Indrag = true;//ドラッグ中判定の終了
+            OnDissField = false;
+            OnWashField = false;
+            Command.GetComponent<Command>().Move = true;
+            Command.GetComponent<Command>().Sink = false;
+            transform.localScale = new Vector3(LargeScale, LargeScale, LargeScale);
+            transform.SetParent(Ondrag_Trashs.transform);//Ondragとか書いてあるけど　正直クリック段階で動かしたい
+        }
     }
     public void ClickUP()
     {
@@ -918,11 +909,14 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
         }
         else if (obj.transform.parent.parent.name != Conect_LCategory(L_Category.ToString()))//大カテゴリが違うとき　親の名前とEnumで判定
         {
+            Debug.Log(obj.transform.parent.parent.name+"QQQ"+ Conect_LCategory(L_Category.ToString()));
             IncorrectSprite = Miss_LCategory(obj.transform.parent.parent.name);
             Corect = false;
         }
         else if ("" + ((int)S_Category % 10) != obj.name)//ボックスの名前がEnumとかみ合わない場合
         {
+
+            
             Debug.Log((int)S_Category + " " + ((int)S_Category % 10) + "" + obj.name);
             IncorrectSprite = MissImages[System.Int32.Parse(obj.name)];//ボックスの名前の画像を出す
             Corect = false;
@@ -997,7 +991,7 @@ public class Trash : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
             case "どうしても燃やさなければならないもの":
                 return "Burnable";
 
-            case "どうしても埋め立てなければならないもの,":
+            case "どうしても埋め立てなければならないもの":
                 return "landfill";
 
             case "お金がかかるもの":
