@@ -39,7 +39,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 35.374, y: 123.8}
-  m_SizeDelta: {x: 121.4446, y: 100.7075}
+  m_SizeDelta: {x: 110, y: 117.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6856994820905343168
 MonoBehaviour:
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a75e058fb6933f3479aed473b462e1af, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 63a1b69808682714bad972daeaf47d01, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -84,6 +84,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: "\u5206\u89E3\u3057\u305F\u725B\u4E73\u30D1\u30C3\u30AF"
+  Enter: {fileID: 0}
+  Stay: {fileID: 0}
+  Exist: {fileID: 0}
   L_Category: 3
   S_Category: 33
   MarkName: 6
@@ -91,7 +94,7 @@ MonoBehaviour:
   NeedWash: 1
   Parts: []
   WashedParts: []
-  WashedSprite: {fileID: 21300000, guid: a75e058fb6933f3479aed473b462e1af, type: 3}
+  WashedSprite: {fileID: 21300000, guid: 3771b85244a4e8240a939532fa93d672, type: 3}
   PartsCount: 0
   PartsNum: 1
   Before_Dissa: {fileID: 0}
@@ -127,6 +130,10 @@ MonoBehaviour:
   DissaSound_bool: 0
   NameText: {fileID: 0}
   Text: {fileID: 0}
+  UnderLime: 0
+  Collider_Bottom: 0
+  a: 0
+  b: 0
   Corect: 0
   OutingBox: 1
 --- !u!222 &7462420947943777947

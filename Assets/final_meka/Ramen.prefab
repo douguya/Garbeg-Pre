@@ -39,7 +39,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 89.352, y: 98.132}
-  m_SizeDelta: {x: 78.7042, y: 127.74}
+  m_SizeDelta: {x: 249, y: 259}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4894484203179406722
 MonoBehaviour:
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 47000833f210fab48848c610bcbed58e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 629b03bd712831244b53fedc250ab582, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -94,9 +94,11 @@ MonoBehaviour:
   NeedWash: 1
   Parts:
   - {fileID: 8714425340976743521, guid: e39419c6a6906cb4fbc195a2e2c01328, type: 3}
+  - {fileID: 8462944491500116720, guid: a677f5a84781e834b8eb7f36df8a0727, type: 3}
   WashedParts:
   - {fileID: 4123318144004598420, guid: c19560b50dcd32f40b35baae9fd085d9, type: 3}
-  WashedSprite: {fileID: 21300000, guid: e6efd8035f6c2b94ba5bab996e95d3ad, type: 3}
+  - {fileID: 5738258944759828597, guid: fd8568b748465aa449d9965c7d8b454a, type: 3}
+  WashedSprite: {fileID: 21300000, guid: fbf41e9fecdd3b34c96ed6f43deb0645, type: 3}
   PartsCount: 2
   PartsNum: 0
   Before_Dissa: {fileID: 21300000, guid: 4049c5ae7a008634491fb4a359c4b7c7, type: 3}
@@ -120,7 +122,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6365af2314c6fc147ba257aed835049f, type: 3}
   - {fileID: 21300000, guid: 6365af2314c6fc147ba257aed835049f, type: 3}
   - {fileID: 21300000, guid: 6365af2314c6fc147ba257aed835049f, type: 3}
-  PartDisaPosi: []
+  PartDisaPosi:
+  - {x: 462, y: -68, z: 0}
+  - {x: 556, y: -68, z: 0}
   DisaPosi_keep: {x: 0, y: 0, z: 0}
   befor_Drag: {x: 0, y: 0, z: 0}
   CorectPosition: {x: 500, y: 500, z: 500}

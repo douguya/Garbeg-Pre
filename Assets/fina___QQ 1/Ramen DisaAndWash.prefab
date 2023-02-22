@@ -84,14 +84,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: "\u6D17\u3063\u305F\u30AB\u30C3\u30D7\u30E9\u30FC\u30E1\u30F3\u306E\u5BB9\u5668"
+  Enter: {fileID: 0}
+  Stay: {fileID: 0}
+  Exist: {fileID: 0}
   L_Category: 3
   S_Category: 35
   MarkName: 0
   NeedDisa: 0
   NeedWash: 0
-  Parts: []
+  Parts:
+  - {fileID: 8714425340976743521, guid: e39419c6a6906cb4fbc195a2e2c01328, type: 3}
+  - {fileID: 8462944491500116720, guid: a677f5a84781e834b8eb7f36df8a0727, type: 3}
   WashedParts:
   - {fileID: 4123318144004598420}
+  - {fileID: 5738258944759828597, guid: fd8568b748465aa449d9965c7d8b454a, type: 3}
   WashedSprite: {fileID: 21300000, guid: 276e48e80f786214aa91f0b1c01e0293, type: 3}
   PartsCount: 1
   PartsNum: 1
@@ -112,7 +118,8 @@ MonoBehaviour:
   Miss_Costs_money: {fileID: 0}
   MissImages: []
   PartDisaPosi:
-  - {x: 490, y: -68, z: 0}
+  - {x: 462, y: -68, z: 0}
+  - {x: 556, y: -68, z: 0}
   DisaPosi_keep: {x: 0, y: 0, z: 0}
   befor_Drag: {x: 0, y: 0, z: 0}
   CorectPosition: {x: 500, y: 500, z: 500}
@@ -128,6 +135,10 @@ MonoBehaviour:
   DissaSound_bool: 0
   NameText: {fileID: 0}
   Text: {fileID: 0}
+  UnderLime: 0
+  Collider_Bottom: 0
+  a: 0
+  b: 0
   Corect: 0
   OutingBox: 1
 --- !u!222 &5309913490303126143

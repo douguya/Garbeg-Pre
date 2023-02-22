@@ -39,7 +39,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -2.2314, y: 7.9694}
-  m_SizeDelta: {x: 39.5071, y: 97.0828}
+  m_SizeDelta: {x: 99.1, y: 99.5}
   m_Pivot: {x: 0.5, y: 0.49999997}
 --- !u!114 &2928374723559489178
 MonoBehaviour:
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 043caf1157e52614da5a2b48b736885f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9e6907b512bd56f4ca4fb5027e150c3f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -93,10 +93,14 @@ MonoBehaviour:
   NeedDisa: 1
   NeedWash: 1
   Parts:
-  - {fileID: 8714425340976743521, guid: e39419c6a6906cb4fbc195a2e2c01328, type: 3}
+  - {fileID: 7410477682441570608, guid: 1c24df115ae0c744b8af51be379818fe, type: 3}
+  - {fileID: 5189072182853710307, guid: fd1b74c0b7a74c94d95581b4620ceda6, type: 3}
+  - {fileID: 3401709024333622913, guid: 142a6769c8e6ce942a24117e69d7a0cf, type: 3}
   WashedParts:
-  - {fileID: 4123318144004598420, guid: c19560b50dcd32f40b35baae9fd085d9, type: 3}
-  WashedSprite: {fileID: 21300000, guid: e6efd8035f6c2b94ba5bab996e95d3ad, type: 3}
+  - {fileID: 1122285821712696656, guid: dacd87c74d383b440aa0e249bbbecedc, type: 3}
+  - {fileID: 5189072182853710307, guid: fd1b74c0b7a74c94d95581b4620ceda6, type: 3}
+  - {fileID: 2542559600751815163, guid: 6a954dd3291250d46a06f98a8a9d2826, type: 3}
+  WashedSprite: {fileID: 21300000, guid: 3c631b2d844ade644944f8f7b436aad0, type: 3}
   PartsCount: 2
   PartsNum: 0
   Before_Dissa: {fileID: 21300000, guid: 4049c5ae7a008634491fb4a359c4b7c7, type: 3}
@@ -120,7 +124,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e4b9500fe819fe34f8f3f43433314470, type: 3}
   - {fileID: 21300000, guid: e4b9500fe819fe34f8f3f43433314470, type: 3}
   - {fileID: 21300000, guid: e4b9500fe819fe34f8f3f43433314470, type: 3}
-  PartDisaPosi: []
+  PartDisaPosi:
+  - {x: 496, y: 17, z: 0}
+  - {x: 437, y: -94, z: 0}
+  - {x: 565, y: -98, z: 0}
   DisaPosi_keep: {x: 0, y: 0, z: 0}
   befor_Drag: {x: 0, y: 0, z: 0}
   CorectPosition: {x: 500, y: 500, z: 500}
