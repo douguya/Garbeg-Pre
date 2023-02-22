@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7994369295629031948}
   - component: {fileID: 7994369295629031950}
   - component: {fileID: 7994369295629031951}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wash Ramen
   m_TagString: Trash
   m_Icon: {fileID: 2800000, guid: e46cdbf58bc4c714ab7163c428b37fe4, type: 3}

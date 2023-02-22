@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3845356366285258010}
   - component: {fileID: 3845356366285258021}
   - component: {fileID: 3845356366285258020}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Chopstick
   m_TagString: Trash
   m_Icon: {fileID: 2800000, guid: b6dc05a57d9bcad4aa6653e77a7372e3, type: 3}

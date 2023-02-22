@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 427899995185840552}
   - component: {fileID: 2215271391395593966}
   - component: {fileID: 5196551060746383377}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u8863\u985E\u30FB\u6BDB\u5E03"
   m_TagString: Trash
   m_Icon: {fileID: 2800000, guid: 01095fbc1d66ac445a069873bea6de99, type: 3}

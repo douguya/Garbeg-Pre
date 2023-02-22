@@ -3,7 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Other
+  - Box
+  - CategoryBox
+  - Ondrag_Trashs
+  - Standard_Trashs
+  - Text
+  - Command
+  - Wash
+  - Large_Category
+  - Left
+  - Disassembly
+  - Right
+  - Trash
+  - Comment
+  - SceneManager
+  - Sound
   layers:
   - Default
   - TransparentFX
@@ -11,7 +27,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Trash
   - 
   - 
   - 

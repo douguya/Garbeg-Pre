@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 9075183016336968795}
   - component: {fileID: 9075183016336968794}
   - component: {fileID: 9075183016336968789}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Dissa RamenC
   m_TagString: Trash
   m_Icon: {fileID: 2800000, guid: 276e48e80f786214aa91f0b1c01e0293, type: 3}
