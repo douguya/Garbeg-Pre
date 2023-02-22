@@ -38,7 +38,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 52.948486, y: 93.64441}
+  m_AnchoredPosition: {x: 53.4, y: 94.1}
   m_SizeDelta: {x: 93.8372, y: 72.8328}
   m_Pivot: {x: 0.5, y: 0.49999997}
 --- !u!114 &2327476049359982796
@@ -98,7 +98,7 @@ MonoBehaviour:
   PartsCount: 0
   PartsNum: 0
   Before_Dissa: {fileID: 0}
-  Before_Wash: {fileID: 21300000, guid: 1cae0eed7c4d402409cd43bfc773a13d, type: 3}
+  Before_Wash: {fileID: 0}
   Miss_Usable: {fileID: 21300000, guid: 58edad45110a16942a709d32c74d4589, type: 3}
   Miss_Garbage: {fileID: 21300000, guid: 58edad45110a16942a709d32c74d4589, type: 3}
   Miss_metals: {fileID: 21300000, guid: 58edad45110a16942a709d32c74d4589, type: 3}

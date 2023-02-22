@@ -92,7 +92,7 @@ MonoBehaviour:
   S_Category: 71
   MarkName: 7
   NeedDisa: 0
-  NeedWash: 1
+  NeedWash: 0
   Parts: []
   WashedParts: []
   WashedSprite: {fileID: 21300000, guid: 5bb61cf6e1815894e8afb099ef3551ee, type: 3}

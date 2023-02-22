@@ -90,8 +90,8 @@ MonoBehaviour:
   L_Category: 3
   S_Category: 34
   MarkName: 7
-  NeedDisa: 1
-  NeedWash: 1
+  NeedDisa: 0
+  NeedWash: 0
   Parts:
   - {fileID: 0}
   WashedParts: []

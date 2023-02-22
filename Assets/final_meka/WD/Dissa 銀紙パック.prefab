@@ -89,12 +89,12 @@ MonoBehaviour:
   Exist: {fileID: 0}
   L_Category: 3
   S_Category: 34
-  MarkName: 7
-  NeedDisa: 1
+  MarkName: 1
+  NeedDisa: 0
   NeedWash: 1
-  Parts:
-  - {fileID: 0}
-  WashedParts: []
+  Parts: []
+  WashedParts:
+  - {fileID: 6816606513963704887, guid: 1102b89c91f576a41a29c035b26f460c, type: 3}
   WashedSprite: {fileID: 21300000, guid: b4dc989859897cf4ca6ecebf6a61c785, type: 3}
   PartsCount: 0
   PartsNum: 0

@@ -90,8 +90,8 @@ MonoBehaviour:
   L_Category: 3
   S_Category: 33
   MarkName: 6
-  NeedDisa: 1
-  NeedWash: 1
+  NeedDisa: 0
+  NeedWash: 0
   Parts:
   - {fileID: 1659500039151339120, guid: 90160ef859012c947830cc7182c5d035, type: 3}
   WashedParts:

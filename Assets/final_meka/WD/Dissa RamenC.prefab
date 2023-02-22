@@ -90,16 +90,15 @@ MonoBehaviour:
   L_Category: 3
   S_Category: 35
   MarkName: 1
-  NeedDisa: 1
+  NeedDisa: 0
   NeedWash: 1
-  Parts:
-  - {fileID: 8714425340976743521, guid: e39419c6a6906cb4fbc195a2e2c01328, type: 3}
+  Parts: []
   WashedParts:
   - {fileID: 4123318144004598420, guid: c19560b50dcd32f40b35baae9fd085d9, type: 3}
   WashedSprite: {fileID: 21300000, guid: e6efd8035f6c2b94ba5bab996e95d3ad, type: 3}
   PartsCount: 2
   PartsNum: 0
-  Before_Dissa: {fileID: 21300000, guid: 4049c5ae7a008634491fb4a359c4b7c7, type: 3}
+  Before_Dissa: {fileID: 0}
   Before_Wash: {fileID: 21300000, guid: 1cae0eed7c4d402409cd43bfc773a13d, type: 3}
   Miss_Usable: {fileID: 21300000, guid: 6365af2314c6fc147ba257aed835049f, type: 3}
   Miss_Garbage: {fileID: 21300000, guid: 6365af2314c6fc147ba257aed835049f, type: 3}

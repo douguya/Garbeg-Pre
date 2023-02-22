@@ -98,7 +98,7 @@ MonoBehaviour:
   PartsCount: 0
   PartsNum: 0
   Before_Dissa: {fileID: 0}
-  Before_Wash: {fileID: 21300000, guid: 1cae0eed7c4d402409cd43bfc773a13d, type: 3}
+  Before_Wash: {fileID: 0}
   Miss_Usable: {fileID: 21300000, guid: b97ec8185cadc8c40b2ad2b7f5210b69, type: 3}
   Miss_Garbage: {fileID: 21300000, guid: b97ec8185cadc8c40b2ad2b7f5210b69, type: 3}
   Miss_metals: {fileID: 21300000, guid: b97ec8185cadc8c40b2ad2b7f5210b69, type: 3}

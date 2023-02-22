@@ -88,10 +88,10 @@ MonoBehaviour:
   Stay: {fileID: 0}
   Exist: {fileID: 0}
   L_Category: 3
-  S_Category: 35
+  S_Category: 36
   MarkName: 1
-  NeedDisa: 1
-  NeedWash: 1
+  NeedDisa: 0
+  NeedWash: 0
   Parts:
   - {fileID: 8714425340976743521, guid: e39419c6a6906cb4fbc195a2e2c01328, type: 3}
   WashedParts:

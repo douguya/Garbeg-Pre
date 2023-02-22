@@ -91,7 +91,7 @@ MonoBehaviour:
   S_Category: 62
   MarkName: 7
   NeedDisa: 0
-  NeedWash: 1
+  NeedWash: 0
   Parts: []
   WashedParts: []
   WashedSprite: {fileID: 0}

@@ -98,22 +98,31 @@ MonoBehaviour:
   WashedSprite: {fileID: 0}
   PartsCount: 0
   PartsNum: 1
-  Before_Dissa: {fileID: 21300000, guid: e6efd8035f6c2b94ba5bab996e95d3ad, type: 3}
-  Before_Wash: {fileID: 21300000, guid: a75e058fb6933f3479aed473b462e1af, type: 3}
-  Miss_Usable: {fileID: 0}
-  Miss_Garbage: {fileID: 0}
-  Miss_metals: {fileID: 0}
-  Miss_paper: {fileID: 0}
-  Miss_cloth: {fileID: 0}
-  Miss_biomass: {fileID: 0}
-  Miss_plastic: {fileID: 0}
-  Miss_bottles: {fileID: 0}
-  Miss_Dangerous: {fileID: 0}
-  Miss_Oversized_Garbage: {fileID: 0}
-  Miss_Burnable: {fileID: 0}
-  Miss_landfill: {fileID: 0}
-  Miss_Costs_money: {fileID: 0}
-  MissImages: []
+  Before_Dissa: {fileID: 0}
+  Before_Wash: {fileID: 21300000, guid: 1cae0eed7c4d402409cd43bfc773a13d, type: 3}
+  Miss_Usable: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  Miss_Garbage: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  Miss_metals: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  Miss_paper: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  Miss_cloth: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  Miss_biomass: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  Miss_plastic: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  Miss_bottles: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  Miss_Dangerous: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  Miss_Oversized_Garbage: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  Miss_Burnable: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  Miss_landfill: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  Miss_Costs_money: {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  MissImages:
+  - {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  - {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  - {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  - {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  - {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  - {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  - {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  - {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
+  - {fileID: 21300000, guid: d3c49409ac950744bbaee20a4a5d3d24, type: 3}
   PartDisaPosi:
   - {x: 490, y: -68, z: 0}
   DisaPosi_keep: {x: 0, y: 0, z: 0}
