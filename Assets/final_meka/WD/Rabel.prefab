@@ -124,6 +124,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 2ec39c7bc0acfbd48b4f8e434a3c0265, type: 3}
   - {fileID: 21300000, guid: 2ec39c7bc0acfbd48b4f8e434a3c0265, type: 3}
   - {fileID: 21300000, guid: 2ec39c7bc0acfbd48b4f8e434a3c0265, type: 3}
+  - {fileID: 21300000, guid: 2ec39c7bc0acfbd48b4f8e434a3c0265, type: 3}
+  - {fileID: 21300000, guid: 2ec39c7bc0acfbd48b4f8e434a3c0265, type: 3}
+  - {fileID: 21300000, guid: 2ec39c7bc0acfbd48b4f8e434a3c0265, type: 3}
+  - {fileID: 21300000, guid: 2ec39c7bc0acfbd48b4f8e434a3c0265, type: 3}
   PartDisaPosi:
   - {x: 496, y: 17, z: 0}
   - {x: 437, y: -94, z: 0}

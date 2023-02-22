@@ -118,6 +118,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7cff96786312348429814a57cffcfa5e, type: 3}
   - {fileID: 21300000, guid: 7cff96786312348429814a57cffcfa5e, type: 3}
   - {fileID: 21300000, guid: 7cff96786312348429814a57cffcfa5e, type: 3}
+  - {fileID: 21300000, guid: 7cff96786312348429814a57cffcfa5e, type: 3}
+  - {fileID: 21300000, guid: 7cff96786312348429814a57cffcfa5e, type: 3}
+  - {fileID: 21300000, guid: 7cff96786312348429814a57cffcfa5e, type: 3}
+  - {fileID: 21300000, guid: 7cff96786312348429814a57cffcfa5e, type: 3}
   PartDisaPosi: []
   DisaPosi_keep: {x: 0, y: 0, z: 0}
   befor_Drag: {x: 0, y: 0, z: 0}
