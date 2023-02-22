@@ -39,7 +39,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 28.183, y: 97.565}
-  m_SizeDelta: {x: 43.97, y: 81.144}
+  m_SizeDelta: {x: 95.7, y: 97.4}
   m_Pivot: {x: 0.5, y: 0.49999997}
 --- !u!114 &5273184882503079233
 MonoBehaviour:
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 613e7df0840cf044d8a467a6219f6dfc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bb6ae3e9bd42045448fb91fdc25fe4c1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -94,7 +94,7 @@ MonoBehaviour:
   NeedWash: 1
   Parts: []
   WashedParts: []
-  WashedSprite: {fileID: 21300000, guid: 613e7df0840cf044d8a467a6219f6dfc, type: 3}
+  WashedSprite: {fileID: 21300000, guid: eb9cd57b43c2fdd40b3c73b368c7b0af, type: 3}
   PartsCount: 0
   PartsNum: 0
   Before_Dissa: {fileID: 0}
@@ -172,7 +172,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 30, y: 50}
+  m_Size: {x: 30.33, y: 50}
   m_EdgeRadius: 0
 --- !u!50 &5273184882503079237
 Rigidbody2D:

@@ -92,7 +92,9 @@ MonoBehaviour:
   MarkName: 7
   NeedDisa: 1
   NeedWash: 0
-  Parts: []
+  Parts:
+  - {fileID: 313888111686333406}
+  - {fileID: 8006448642068261495, guid: f04fbbedb40a7b0488a9d8b1a7ee47b6, type: 3}
   WashedParts: []
   WashedSprite: {fileID: 0}
   PartsCount: 1
@@ -118,7 +120,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a357e7d5be251f84c8609bd14f18edbd, type: 3}
   - {fileID: 21300000, guid: a357e7d5be251f84c8609bd14f18edbd, type: 3}
   - {fileID: 21300000, guid: a357e7d5be251f84c8609bd14f18edbd, type: 3}
-  PartDisaPosi: []
+  PartDisaPosi:
+  - {x: 462, y: -68, z: 0}
+  - {x: 556, y: -68, z: 0}
   DisaPosi_keep: {x: 0, y: 0, z: 0}
   befor_Drag: {x: 0, y: 0, z: 0}
   CorectPosition: {x: 500, y: 500, z: 500}

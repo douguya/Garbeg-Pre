@@ -9,7 +9,7 @@ public class Garbage_Generation : MonoBehaviour
 
     public GameObject[] Trash_Warehouse;//¶¬‚·‚é‚²‚İ‚ÌƒŠƒXƒg
 
-   
+    public int num;
 
 
     // Start is called before the first frame update
@@ -50,6 +50,13 @@ public class Garbage_Generation : MonoBehaviour
         }
 
 
+    }
+
+
+    public void GGG()
+    {
+        var Standard_Trashs = GameObject.FindWithTag("Standard_Trashs");//•ú‚è‚Şe‚ğæ“¾
+        Instantiate(Trash_Warehouse[num], GenerationPoint[0].transform.position, Quaternion.identity, Standard_Trashs.transform);
     }
    
 }

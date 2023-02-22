@@ -39,7 +39,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -124.9, y: 130.75}
-  m_SizeDelta: {x: 89.557, y: 100.89}
+  m_SizeDelta: {x: 108, y: 118.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5187208711167758854
 MonoBehaviour:
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e6efd8035f6c2b94ba5bab996e95d3ad, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3bbc48fdac4dbc84898ac2a4c7d26239, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -96,7 +96,7 @@ MonoBehaviour:
   - {fileID: 1659500039151339120, guid: 90160ef859012c947830cc7182c5d035, type: 3}
   WashedParts:
   - {fileID: 5360876891104728054, guid: 9ad1493609c962445b1a48e36156718e, type: 3}
-  WashedSprite: {fileID: 21300000, guid: e6efd8035f6c2b94ba5bab996e95d3ad, type: 3}
+  WashedSprite: {fileID: 21300000, guid: e5dda23b567b38145a3d7493402c79a0, type: 3}
   PartsCount: 1
   PartsNum: 0
   Before_Dissa: {fileID: 21300000, guid: 4049c5ae7a008634491fb4a359c4b7c7, type: 3}
