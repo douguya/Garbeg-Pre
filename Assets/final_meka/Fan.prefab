@@ -62,6 +62,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: "\u6247\u5B50"
+  Enter: {fileID: 0}
+  Stay: {fileID: 0}
+  Exist: {fileID: 0}
   L_Category: 5
   S_Category: 50
   MarkName: 7
@@ -93,6 +96,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
   - {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
   - {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
+  - {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
+  - {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
+  - {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
+  - {fileID: 21300000, guid: 0648b3da80f5a494eaa0a41e28aee36b, type: 3}
   PartDisaPosi: []
   DisaPosi_keep: {x: 490, y: -68, z: 0}
   befor_Drag: {x: 0, y: 0, z: 0}
@@ -109,6 +116,10 @@ MonoBehaviour:
   DissaSound_bool: 0
   NameText: {fileID: 0}
   Text: {fileID: 0}
+  UnderLime: 0
+  Collider_Bottom: 0
+  a: 0
+  b: 0
   Corect: 0
   OutingBox: 1
 --- !u!114 &49913921143815235

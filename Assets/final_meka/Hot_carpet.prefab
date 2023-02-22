@@ -62,6 +62,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: "\u30DB\u30C3\u30C8\u30AB\u30FC\u30DA\u30C3\u30C8"
+  Enter: {fileID: 0}
+  Stay: {fileID: 0}
+  Exist: {fileID: 0}
   L_Category: 5
   S_Category: 50
   MarkName: 7
@@ -93,6 +96,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
   - {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
   - {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  - {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  - {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  - {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
+  - {fileID: 21300000, guid: 660e94f7c37f329499b3fbb8925d4d18, type: 3}
   PartDisaPosi: []
   DisaPosi_keep: {x: 490, y: -68, z: 0}
   befor_Drag: {x: 0, y: 0, z: 0}
@@ -109,6 +116,10 @@ MonoBehaviour:
   DissaSound_bool: 0
   NameText: {fileID: 0}
   Text: {fileID: 0}
+  UnderLime: 0
+  Collider_Bottom: 0
+  a: 0
+  b: 0
   Corect: 0
   OutingBox: 1
 --- !u!114 &8323140284067679033
